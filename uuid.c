@@ -16,7 +16,7 @@ uuid_t *uuid_gen(uuid_t *uuid)
     if (false == srandInit)
     {
         srandInit = true;
-        auto val = (unsigned int)time(NULL);
+        unsigned int val = (unsigned int)time(NULL);
         srand(val);
     }
 
