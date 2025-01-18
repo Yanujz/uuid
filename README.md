@@ -1,6 +1,6 @@
 # UUID Generator
 
-This repository provides a C library for generating Universally Unique Identifiers (UUIDs). UUIDs are 128-bit values used to uniquely identify information. This library offers a simple C API to generate UUIDs.
+This repository provides a C library for generating Universally Unique Identifiers (UUIDs). UUIDs are 128-bit values used to uniquely identify information. The library generates UUIDs using pseudo-random numbers, seeded by a non-cryptographically secure source.
 
 ## Features
 
